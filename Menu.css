@@ -1,0 +1,37 @@
+#T20 {
+  margin-top: 4px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+#T20 b {
+  margin-right: 50px;
+}
+#T20 a {
+  color: blue;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  padding-right: 15px;
+  display: inline;
+}
+
+a {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}

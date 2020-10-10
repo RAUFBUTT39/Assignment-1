@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Cricfizz</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -16,260 +16,333 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./Menu.css">
   </head>
-  <body class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Cricfizz</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Live Scores <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Schedules</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Teams
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Pakistan</a>
-              <a class="dropdown-item" href="#">India</a>
-              <a class="dropdown-item" href="#">Australia</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Search here</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Series
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Pakista Vs Zimbabwe</a>
-              <a class="dropdown-item" href="#">IPL 2020</a>
-              <a class="dropdown-item" href="#">T20 Blast 2020</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">All-Series</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Videos
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">All-Videos</a>
-              <a class="dropdown-item" href="#">Categories</a>
-              <a class="dropdown-item" href="#">Playlists</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Rankings
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">ICC Rankings-Men</a>
-              <a class="dropdown-item" href="#">ICC Rankings-Women</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
-      </div>
-    </nav>
+  <body id="body"">
     
-      <div class="row">
-        <div class="col-12 col-sm-4 col-md-4 col-lg-3"> 
-        <h1>Latest News</h1>
-        Pakistan Vs Zimbabwe Series Scedule issued
-        <hr>
-        Stokes returns to cricket with 'parents' love and blessing'
-        <hr>
-        "2017 World Cup in England was the line in the sand moment" - Haynes
-        <hr>
-        Ali Khan injured but not ruled out of IPL 2020
-        <hr>
-        Steven Smith fined for slow over-rate against MI
-        <hr>
-        MI benefit from Bumrah's keenness to 'take the new ball'
-        <hr>
-        BCB paves way for Shakib's return in domestic T20 league
-        <hr>
-        CSA commits to releasing forensic report to parliament
-        <hr>
-        With their victory in the third ODI against New Zealand in Brisbane, 
-        Australia Women completed 21 ODI wins in a row – a glorious run that began in March 2018.
-        <hr>
-        Imad Wasim: 'I don't think there are many aggressive spinners like me in the powerplay'
-        <hr>
-        <a href=""> More..</a>
+    <div class="container">
+      <nav class="navbar navbar-custom navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="#">Cricfizz</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Live Scores <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Schedules</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Teams
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Pakistan</a>
+                <a class="dropdown-item" href="#">India</a>
+                <a class="dropdown-item" href="#">Australia</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Search here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Series
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Pakista Vs Zimbabwe</a>
+                <a class="dropdown-item" href="#">IPL 2020</a>
+                <a class="dropdown-item" href="#">T20 Blast 2020</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">All-Series</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Videos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">All-Videos</a>
+                <a class="dropdown-item" href="#">Categories</a>
+                <a class="dropdown-item" href="#">Playlists</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Rankings
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">ICC Rankings-Men</a>
+                <a class="dropdown-item" href="#">ICC Rankings-Women</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+      
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>LIVE MATCH!</strong> You should check in on some of those fields below.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div id="T20">
+        <ul>
+          <b>National T20 Cup 2020</b>
+         <li><a href="">HOME</a></li>
+          <li><a href="">Schedule</a></li>
+         <li><a href="">Points Table</a></li>
+         <li><a href="">Stats</a></li>
+          <li><a href="">Squads</a></li>
+          <li><a href="">Videos</a></li>
+          <li><a href="">News</a></li>
+          <li><a href="">Results</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="container">
+        <div id="matches" class="row">
+          <div id="vertical" class="col-4">
+            <h3>FEATURED MATCHES</h3>
+              DC184-8 (20) <br>
+              <br>
+              RR138 (19.4) <br>
+             <br>
+              Delhi Capitals won by 46 runs
+            </div>
+            <div id="vertical" class="col-4">
+              <br>
+              <br>
+              Chennai Super Kings <br>
+              <br>
+              Royal Challengers Bangalore <br>
+              <br>
+              Saturday, 10 Oct, 07:00 PM
+            </div>
+            <div class="col-4">
+              <br>
+              <br>
+              Kings XI Punjab <br>
+              <br>
+              Kolkata Knight Riders <br>
+              <br>
+              Saturday, 10 Oct, 03:00 PM
+            </div>
+          </div>
+
+          <div id="News"class="row">
+            <div class="col-12 col-sm-4 col-md-3 "> 
+            <h3>Latest News</h3>
+            Pakistan Vs Zimbabwe Series Schedule issued
+            <hr>
+            Khushdil Shah hits 35 ball 100 in National t20 Cup 2020 against Sindh.
+            <hr>
+            Stokes returns to cricket with 'parents' love and blessing'
+            <hr>
+            "2017 World Cup in England was the line in the sand moment" - Haynes
+            <hr>
+            Ali Khan injured but not ruled out of IPL 2020
+            <hr>
+            Steven Smith fined for slow over-rate against MI
+            <hr>
+            MI benefit from Bumrah's keenness to 'take the new ball'
+            <hr>
+            BCB paves way for Shakib's return in domestic T20 league
+            <hr>
+            CSA commits to releasing forensic report to parliament
+            <hr>
+            With their victory in the third ODI against New Zealand in Brisbane, 
+            Australia Women completed 21 ODI wins in a row – a glorious run that began in March 2018.
+            <hr>
+            Imad Wasim: 'I don't think there are many aggressive spinners like me in the powerplay'
+            <hr>
+            <a href="" style="color: hotpink;"> More..</a>
+            </div>
+            <div class="pics">
+              <div class="col-12 col-sm-8 col-md-6 ">
+                    <h3 >Latest Photos</h3>
+                    <img src="./pic/pic1.jpg " alt="Babar's Drive" width="400px">
+                    <h6>Pak vs ZIM ODI</h6>
+                    <hr>
+                    <img src="./pic/ipl.jpg" alt="" width="400px">
+                    <h6>IPL Starts in DUBAI</h6>
+                    <hr>
+                    <img src="./pic/pic5.jpeg" alt="Test Cricket" width="400px">
+                    <h6>PAK VS ENGLAND</h6>
+                    <hr>
+                    <img src="./pic/t20cup.jpg" alt="KP Vs Sindh" width="400px">
+                    <h6>NATIONAL T20 CUP KP vs SINDh</h6>
+                    <hr>
+                    <img src="./pic/pic3.jpg" alt="Stars vs Thunders" width="400px">
+                    <h6>Big Bash Cricket   Stars vs Thunders</h6>
+                    <hr>
+                    <img src="./pic/pic4.jpg" alt="Vitality Blast" width="400px">
+                    <h6>VITALITY T20 BLAST</h6>
+                    <hr>
+                    <img src="./pic/pic5.jpg" alt="National t20" width="400px">
+                    <h6>KHUSDIL SHAH CENTURY</h6>
+                    <hr>
+            </div>
+            </div>
+            
+            <div class="col-12 col-sm-12 col-md-3">
+              <div class="schedule">
+                <h3>Schedules</h3> 
+                Pakistan vs Zimbabwe, 1st ODI
+                Fri Oct 30 • 10:00 AM GMT
+                <hr>
+                Pakistan vs Zimbabwe, 2nd ODI
+                Sun Nov 01 • 10:00 AM GMT
+                <hr>
+                Pakistan vs Zimbabwe, 3rd ODI
+                Tue Nov 03 • 10:00 AM GMT
+                <hr>
+                Pakistan vs Zimbabwe, 1st T20I
+                Sat Nov 07 • 2:00 PM GMT
+                <hr>
+                Pakistan vs Zimbabwe, 2nd T20I
+                Sun Nov 08 • 2:00 PM GMT
+                <hr>    
+                TUE, NOV 10 2020
+                 Zimbabwe tour of Pakistan, 2020Pakistan vs Zimbabwe, 3rd T20I
+                 Rawalpindi Cricket Stadium, Rawalpindi
+                 2:00 PM 09:00 AM GMT / 02:00 PM LOCAL
+                 <hr>
+                 FRI, NOV 27 2020
+                 West Indies tour of New Zealand, 2020New Zealand vs West Indies, 1st T20I
+                 Eden Park, Auckland
+                 11:00 AM  06:00 AM GMT / 07:00 PM LOCAL
+                 <hr>
+                 SUN, NOV 29 2020
+                 West Indies tour of New Zealand, 2020New Zealand vs West Indies, 2nd T20I
+                 Bay Oval, Mount Maunganui
+                 6:00 AM  01:00 AM GMT / 02:00 PM LOCAL
+                 <hr>
+                 MON, NOV 30 2020
+                 West Indies tour of New Zealand, 2020New Zealand vs West Indies, 3rd T20I
+                 Bay Oval, Mount Maunganui
+                 11:00 AM 06:00 AM GMT / 07:00 PM LOCAL
+                 <hr>
+                 THU, DEC 03 2020
+                 West Indies tour of New Zealand, 2020New Zealand vs West Indies, 1st Test, Day 1
+                 Seddon Park, Hamilton
+                 3:00 AM (Dec 03) 10:00 PM GMT (Dec 02) / 11:00 AM LOCAL
+                 <hr>
+                 India tour of Australia, 2020-21(TBC)Australia vs India, 1st Test, Day 1
+                 The Gabba, Brisbane
+                 5:00 AM 12:00 AM GMT / 10:00 AM LOCAL
+                 <hr>
+                 FRI, DEC 04 2020
+                 West Indies tour of New Zealand, 2020New Zealand vs West Indies, 1st Test, Day 2
+                 Seddon Park, Hamilton
+                 3:00 AM (Dec 04)
+                 10:00 PM GMT (Dec 03) / 11:00 AM LOCAL
+                <hr>
+                <a href="" style="color: hotpink;"> More Matches..</a>
+              </div>
+              </div>
+               
+        </div>
+      </div>  
         </div>
   
-        <div class="col-12 col-sm-8 col-md-8 col-lg-6">
-            <h1 >Latest Photos</h1>
-                <img src="./pic/pic1.jpg " alt="Babar's Drive" width="400px">
-                <h6>Pak vs ZIM ODI</h6>
-                <hr>
-                <img src="./pic/ipl.jpg" alt="" width="400px">
-                <h6>IPL Starts in DUBAI</h6>
-                <hr>
-                <img src="./pic/pic5.jpeg" alt="Test Cricket" width="400px">
-                <h6>PAK VS ENGLAND</h6>
-                <hr>
-                <img src="./pic/t20cup.jpg" alt="KP Vs Sindh" width="400px">
-                <h6>NATIONAL T20 CUP KP vs SINDh</h6>
-                <hr>
-                <img src="./pic/pic3.jpg" alt="Stars vs Thunders" width="400px">
-                <h6>Big Bash Cricket   Stars vs Thunders</h6>
-                <hr>
-                <img src="./pic/pic4.jpg" alt="Vitality Blast" width="400px">
-                <h6>VITALITY T20 BLAST</h6>
-                <hr>
-        </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-3">
-            <h1>SCHEDULE</h1> 
-            Pakistan vs Zimbabwe, 1st ODI
-            Fri Oct 30 • 10:00 AM GMT
-            <hr>
-            Pakistan vs Zimbabwe, 2nd ODI
-            Sun Nov 01 • 10:00 AM GMT
-            <hr>
-            Pakistan vs Zimbabwe, 3rd ODI
-            Tue Nov 03 • 10:00 AM GMT
-            <hr>
-            Pakistan vs Zimbabwe, 1st T20I
-            Sat Nov 07 • 2:00 PM GMT
-            <hr>
-            Pakistan vs Zimbabwe, 2nd T20I
-            Sun Nov 08 • 2:00 PM GMT
-            <hr>    
-            TUE, NOV 10 2020
-             Zimbabwe tour of Pakistan, 2020Pakistan vs Zimbabwe, 3rd T20I
-             Rawalpindi Cricket Stadium, Rawalpindi
-             2:00 PM 09:00 AM GMT / 02:00 PM LOCAL
-             <hr>
-             FRI, NOV 27 2020
-             West Indies tour of New Zealand, 2020New Zealand vs West Indies, 1st T20I
-             Eden Park, Auckland
-             11:00 AM  06:00 AM GMT / 07:00 PM LOCAL
-             <hr>
-             SUN, NOV 29 2020
-             West Indies tour of New Zealand, 2020New Zealand vs West Indies, 2nd T20I
-             Bay Oval, Mount Maunganui
-             6:00 AM  01:00 AM GMT / 02:00 PM LOCAL
-             <hr>
-             MON, NOV 30 2020
-             West Indies tour of New Zealand, 2020New Zealand vs West Indies, 3rd T20I
-             Bay Oval, Mount Maunganui
-             11:00 AM 06:00 AM GMT / 07:00 PM LOCAL
-             <hr>
-             THU, DEC 03 2020
-             West Indies tour of New Zealand, 2020New Zealand vs West Indies, 1st Test, Day 1
-             Seddon Park, Hamilton
-             3:00 AM (Dec 03) 10:00 PM GMT (Dec 02) / 11:00 AM LOCAL
-             <hr>
-             India tour of Australia, 2020-21(TBC)Australia vs India, 1st Test, Day 1
-             The Gabba, Brisbane
-             5:00 AM 12:00 AM GMT / 10:00 AM LOCAL
-             <hr>
-             FRI, DEC 04 2020
-             West Indies tour of New Zealand, 2020New Zealand vs West Indies, 1st Test, Day 2
-             Seddon Park, Hamilton
-             3:00 AM (Dec 04)
-             10:00 PM GMT (Dec 03) / 11:00 AM LOCAL
-            <hr>
-            <a href=""> More Matches..</a>
+      <div class="container-fluid">
+        <div id="follow" class="row">
+          <div class="col-12 col-sm-6 col-md-3">
+            <h3>Cricfizz</h3>
           </div>
-    </div>
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 col-sm-6 col-md-3">
-          <h3>Cricfizz</h3>
-        </div>
-        <div class="col-12 col-sm-6 col-md-3">
-          <h4>MOBILE SITE & APPS</h4>
-          <a href="">m.cricfizz.com</a>
-          <br>
-          <br>
-          <a href="">Android</a>
-          <br>
-          <br>
-          <a href="">iOS</a>
-        </div>
-        <div class="col-12 col-sm-6 col-md-3">
-          <h4>FOLLOW US ON</h4>
-          <a href="">facebook</a>
-          <br><br>
-          <a href="">twitter</a>
-          <br><br>
-          <a href="">youtube</a>
-          <br><br>
-          <a href="">@Copyright 2020</a>
-        </div>
-        <div class="col-12 col-sm-6 col-md-3">
-          <h4>COMPANY</h4>
-          <a href="">Careers</a>
-          <br>
-          <br>
-          <a href="">Advertisements</a>
-          <br><br>
-          <a href="">Privacy Policy</a>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h4>MOBILE SITE & APPS</h4>
+            <br>
+            <a href="">m.cricfizz.com</a>
+            <br>
+            <br>
+            <a href="">Android</a>
+            <br>
+            <br>
+            <a href="">iOS</a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h4>FOLLOW US ON</h4>
+            <br>
+            <a href="">facebook</a>
+            <br><br>
+            <a href="">twitter</a>
+            <br><br>
+            <a href="">youtube</a>
+            <br>
+            <br>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h4>COMPANY</h4>
+            <br>
+            <a href="">Careers</a>
+            <br>
+            <br>
+            <a href="">Advertisements</a>
+            <br><br>
+            <a href="">Privacy Policy</a>
+          </div>
         </div>
       </div>
-    </div>
+
+        <a href=""  >© 2020 Cricfuzz.com, All rights reserved</a>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script

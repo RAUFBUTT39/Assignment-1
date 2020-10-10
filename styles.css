@@ -1,0 +1,47 @@
+#vertical {
+  border-right: 1px solid gainsboro;
+  height: 160px;
+  position: relative;
+}
+.alert {
+  margin-bottom: 0px;
+}
+h6 {
+  color: hotpink;
+}
+#body {
+  background-color: whitesmoke;
+}
+#matches {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+}
+#News {
+  background-color: white;
+  margin-top: 4px;
+}
+.schedule {
+  margin-left: 10px;
+}
+.pics {
+  margin-left: 10px;
+}
+.container-fluid {
+  color: hotpink;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  background-color: teal;
+}
+
+.navbar-custom {
+  background-color: hotpink !important;
+}
+#follow {
+  text-align: center;
+}
+h3 {
+  color: hotpink;
+}
