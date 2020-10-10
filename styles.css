@@ -3,6 +3,9 @@
   height: 160px;
   position: relative;
 }
+#t20cup {
+  overflow: hidden;
+}
 .alert {
   margin-bottom: 0px;
 }
@@ -16,7 +19,7 @@ h6 {
   overflow: hidden;
   background-color: white;
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   margin-top: 5px;
 }
 #News {
